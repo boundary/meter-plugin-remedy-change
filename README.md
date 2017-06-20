@@ -7,9 +7,9 @@ Collects tickets(Change management) from Remedy servers and collected tickets ar
 
 #### Supported OS
 
-|     OS    | Linux | Windows | SmartOS | OS X |
-|:----------|:-----:|:-------:|:-------:|:----:|
-| Supported |   v   |    v    |    -    |  v   |
+|     OS    | Linux | Windows | OS X |
+|:----------|:-----:|:-------:|:----:|
+| Supported |   v   |    v    |  v   |
 
 #### Runtime Environment
 
@@ -31,15 +31,15 @@ Collects tickets(Change management) from Remedy servers and collected tickets ar
 
 |Field Name        |Description                                                                    |
 |:-----------------|:------------------------------------------------------------------------------|
-|Host              |The host of Remedy server                                            		   |
+|AR Server Name    |The host of Remedy server                                            		   |
 |Port              |The port of Remedy server                                            		   |
 |Username          |The user of Remedy server                                            		   |
 |Password          |The password of Remedy server                                        		   |
-|Poll Interval     |How often (in milliseconds) to poll for collect the tickets                    |
+|Poll Interval     |How often (in minutes) to poll for collect the tickets                    |
 |Remedy Fields     |Type of fields will be collected(more info please check in template section)   |
 
 ### Templates
-TODO: Need to add information.
+[Change Default Template](https://github.com/boundary/meter-plugin-remedy-change/blob/master/template/changeDefaultTemplate.json)
 
 ### References
 

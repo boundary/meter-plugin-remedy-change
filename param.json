@@ -3,18 +3,13 @@
     {
       "hostName":"127.0.0.1",
       "port":0,
-      "userName":"vitiwari",
-      "password":"bmcAdm1n",
+      "userName":"xxxx",
+      "password":"xxxx",
       "fields":[
         "{",
         "\t\"eventDefinition\": {",
         "\t\t\"properties\": {",
-        "\t\t\t\"Assignee\": \"@ASSIGNEE\",",
-        "\t\t\t\"IncidentNumber\": \"@INCIDENT_NUMBER\",",
-        "\t\t\t\"CI\": \"@CI\",",
-        "\t\t\t\"Priority\": \"@PRIORITY\",",
-        "\t\t\t\"PriorityWeight\": \"@WEIGHT\",",
-        "\t\t\t\"app_id\": \"Remedy DEMO 12\"",
+        "\t\t\t\"app_id\": \"meter-plugin-remedy\"",
         "\t\t}",
         "\t}",      
         "}"

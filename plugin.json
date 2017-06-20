@@ -23,7 +23,7 @@
   },
   "paramSchema": [
     {
-      "title": "AR Host Name",
+      "title": "AR Server Name",
       "name": "hostName",
       "description": "The host of BMC Remedy server",
       "type": "string",
@@ -44,7 +44,7 @@
       "description": "The user of BMC Remedy server",
       "type": "string",
       "default": "",
-      "required": false
+      "required": true
     },
     {
       "title": "Password",
@@ -55,7 +55,7 @@
       "required": false
     },
 	{
-      "title": "Remedy Field Mapping",
+      "title": "Field Mapping",
       "name": "fields",
       "description": "Remedy TSI Fields Mapping Configuration",
       "type": "array",
@@ -65,14 +65,9 @@
       "default": [ "{",
         "\t\"eventDefinition\": {",
         "\t\t\"properties\": {",
-        "\t\t\t\"Assignee\": \"@ASSIGNEE\",",
-        "\t\t\t\"ChangeID\": \"@CHANGE_ID\",",
-        "\t\t\t\"CI\": \"@CI\",",
-        "\t\t\t\"Priority\": \"@PRIORITY\",",
-        "\t\t\t\"PriorityWeight\": \"@WEIGHT\",",
-        "\t\t\t\"app_id\": \"Remedy DEMO 12\"",
+        "\t\t\t\"app_id\": \"meter-plugin-remedy\"",
         "\t\t}",
-        "\t\t}",
+        "\t}",
         "}"],
       	"required": true
     },
